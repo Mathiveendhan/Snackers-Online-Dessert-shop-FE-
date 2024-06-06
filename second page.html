@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snackers Online Food Ordering</title>
+  <style>
+    /* CSS styles */
+    /* CSS styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Change to 6 columns */
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.food-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.food-box:hover {
+  transform: translateY(-10px);
+}
+
+.food-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.food-box h3 {
+  margin-bottom: 5px;
+}
+
+.food-box p {
+  margin-bottom: 10px;
+}
+
+.rating {
+  background-color: gold;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  background-color: gold;
+  color: #f8f4f4;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar input[type="search"] {
+  width: 70%;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Search bar -->
+  <div class="search-bar">
+    <input type="search" placeholder="Search for desserts...">
+    <button type="submit">Search</button>
+  </div>
+  
+  <!-- Food boxes container -->
+  <div class="container">
+    
+    <div class="food-box">
+        <img src="file:///C:/Users/Admin/OneDrive/Documents/program work/Model test/food item images/pancake.jpeg" alt="Pancake">
+        <h3>Pancake</h3>
+      <p>$10.99</p>
+      <div class="rating">
+        <span>&#9733;</span> 4.2
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    
+    <div class="food-box">
+      <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\waffle.jpeg" alt="Waffle">
+      <h3>Waffle</h3>
+      <p>$8.99</p>
+      <div class="rating-and-cart">
+          <div class="rating">
+              <span>&#9733;</span> 4.7
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+      </div>
+  </div>
+    
+    <div class="food-box">
+      <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\tiramisu.jpeg" alt="tiramisu">
+      <h3>Tiramisu</h3>
+      <p>$12.99</p>
+      <div class="rating">
+        <span>&#9733;</span> 4.0
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    
+    
+
+    
+    <div class="food-box">
+      <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\kunafa.jpeg" alt="kunafa">
+      <h3>Kunafa</h3>
+      <p>$14.99</p>
+      <div class="rating">
+        <span>&#9733;</span> 4.3
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    
+    <div class="food-box">
+      <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\donuts.jpeg" alt="Donuts">
+      <h3>Donuts</h3>
+      <p>$11.99</p>
+      <div class="rating">
+        <span>&#9733;</span> 4.1
+      </div>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+
+    <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\crumbrule.jpeg" alt="crumbrule">
+        <h3>Crumbrule</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.3
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\chocolava cake.jpeg" alt="Chocolava cake">
+        <h3>Chocolava Cake</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.1
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\baklava.jpeg" alt="baklava">
+        <h3>Baklava</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.4
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\apple pie.jpeg" alt="apple pie">
+        <h3>Apple Pie</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.5
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\Crepe.jpeg" alt="Crepe">
+        <h3>Crepe</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.2
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\choco sundae.jpeg" alt="choco sundae">
+        <h3>Choco Sundae</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.0
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\Makaruns.jpeg" alt="Makaruns">
+        <h3>Macrons</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.1
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\Puttu ice cream.jpeg" alt="Puttu ice cream">
+        <h3>Puttu ice cream</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.2
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\brownie.jpeg" alt="brownie">
+        <h3>Brownie</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.5
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\cookies.jpeg" alt="cookies">
+        <h3>Cookies</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.1
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\mochi.jpeg" alt="mochi">
+        <h3>Mochi</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.0
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\pudding.jpeg" alt="pudding">
+        <h3>Pudding</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.3
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\tresleches.jpeg" alt="tresleches">
+        <h3>Tresleches</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.4
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      
+      <div class="food-box">
+        <img src="C:\Users\Admin\OneDrive\Documents\program work\Model test\food item images\chocolate milkshake.jpeg" alt="Choco milkshake">
+        <h3>Choco Milshake</h3>
+        <p>$11.99</p>
+        <div class="rating">
+          <span>&#9733;</span> 4.6
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+  </body>
+  </html>
+   
