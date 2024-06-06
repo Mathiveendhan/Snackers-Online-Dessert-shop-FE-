@@ -4,6 +4,5 @@ login page
 
 main page
 
-![Screenshot 2024-06-06 193948](https://github.com/Mathiveendhan/Snackers-Online-Dessert-shop-FE-/assets/113008726/9e7c8391-1f01-4d23-a109-3a9817b5f524)
-
-![Screenshot 2024-06-06 193956](https://github.com/Mathiveendhan/Snackers-Online-Dessert-shop-FE-/assets/113008726/58777a1b-89d5-4e21-9b12-8c968dbb4a5a)
+![Screenshot 2024-06-06 194518](https://github.com/Mathiveendhan/Snackers-Online-Dessert-shop-FE-/assets/113008726/bdd82cf8-9a7f-44d3-913d-17ea3dd4533b)
+![Screenshot 2024-06-06 194525](https://github.com/Mathiveendhan/Snackers-Online-Dessert-shop-FE-/assets/113008726/43ddd510-fade-43af-a027-18754274d833)
